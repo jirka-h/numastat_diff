@@ -38,3 +38,8 @@ interleave_hit      0      0      0      0      0      0      0      0
 local_node        148    133   7908   1551    202    135      0    108
 other_node          4      0      0      0      0      0      0   3084
 ```
+
+Bernd Finger has suggested a awk script. It's in the `Awk` directory.
+```sh
+Awk/numastat_diff.awk Example/numastat.start Example/numastat.end
+```
